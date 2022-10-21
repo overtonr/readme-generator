@@ -1,47 +1,44 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-
+//When generated, README populates with this content
+//includes the answers from the inquirer prompts
 const generateRM = (answers) =>
 `# ${answers.title}
 
-    ## Description
-    ---
-    ${answers.description}
-    [license badge]${answers.license}
-    
-    ## Table of Contents
-    ---
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    ## Installation
-    ---
-    ${answers.installation}
-    
-    ## Usage
-    ---
-    ${answers.usage}
-    
-    ## License
-    ---
-    This application is covered under ${answers.license}
-    ## Contributing
-    ---
-    ${answers.contributing}
-    ## Test Instructions
-    ---
-    ${answers.test}
-    ## Questions
-    ----
-    https://github.com/${answers.github}
-    
-    If you have any questions, please feel free to contact me through my email : ${answers.email}.`;
+## Description
+---
+${answers.description}
+[license badge]${answers.license}
+## Table of Contents
+---
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#test-instructions)
+- [Questions](#questions)
+## Installation
+---
+${answers.installation}
+## Usage
+---
+${answers.usage}
+## License
+---
+This application is covered under ${answers.license}
+## Contributing
+---
+${answers.contributing}
+## Test Instructions
+---
+${answers.test}
+## Questions
+----
+https://github.com/${answers.github}
+If you have any questions, please feel free to contact me through my email : ${answers.email}.`;
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     "What is your gihub username?",
     "What is your email?",
@@ -110,3 +107,11 @@ inquirer
         err ? console.log(err) : console.log ("README file created.")
         );
     });
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
