@@ -3,7 +3,8 @@
 ## Description
 ---
 ${answers.description}
-[license badge]${answers.license}
+[![License: ${answers.license}]
+
 
 ## Table of Contents
 ---
