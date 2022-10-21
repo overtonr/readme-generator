@@ -1,9 +1,9 @@
-# [Title]
+# ${answers.title}
 
 ## Description
 ---
-[description input]
-[license badge]
+${answers.description}
+[license badge]${answers.license}
 
 ## Table of Contents
 ---
@@ -15,21 +15,23 @@
 - [Questions](#questions)
 ## Installation
 ---
-[input]
+${answers.installation}
+
 ## Usage
 ---
-[input]
+${answers.usage}
+
 ## License
 ---
-This application is covered under [selected license name]
+This application is covered under ${answers.license}
 ## Contributing
 ---
-[input]
+${answers.contributing}
 ## Test Instructions
 ---
-[input]
+${answers.test}
 ## Questions
 ----
-[link to github profile]
+https://github.com/${answers.github}
 
-If you have any questions, please feel free to contact me through my email : [email].
+If you have any questions, please feel free to contact me through my email : ${answers.email}.
