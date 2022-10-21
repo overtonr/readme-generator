@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 const generateRM = (answers) =>
-    `# ${answers.title}
+`# ${answers.title}
 
     ## Description
     ---
@@ -40,6 +40,7 @@ const generateRM = (answers) =>
     https://github.com/${answers.github}
     
     If you have any questions, please feel free to contact me through my email : ${answers.email}.`;
+
 // TODO: Create an array of questions for user input
 const questions = [
     "What is your gihub username?",
@@ -102,11 +103,10 @@ inquirer
         message:"What are the test instructions for this application?",
     },
     ])
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+// Function to write README file
+    .then((answers) => {
+        const fileContent = generateRM(answers);
+        fs.writeFile("README.md", fileContent, (err) =>
+        err ? console.log(err) : console.log ("README file created.")
+        );
+    });
