@@ -1,8 +1,12 @@
-# Title
-
+# [Title]
 
 ## Description
+---
+[description input]
+[license badge]
+
 ## Table of Contents
+---
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -10,16 +14,22 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
+---
+[input]
 ## Usage
+---
+[input]
 ## License
+---
+This application is covered under [selected license name]
 ## Contributing
-## Tests
+---
+[input]
+## Test Instructions
+---
+[input]
 ## Questions
+----
+[link to github profile]
 
-
-
-professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I choose a license for my application from a list of options
-
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+If you have any questions, please feel free to contact me through my email : [email].
