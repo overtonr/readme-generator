@@ -70,7 +70,7 @@ inquirer
 // Function to write README file
     .then((answers) => {
         const fileContent = generateMarkdown(answers);
-        fs.writeFile("generatedREADME.md", fileContent, (err) =>
+        fs.writeFile("README.md", fileContent, (err) =>
         err ? console.log(err) : console.log ("README file created.")
         );
     });
