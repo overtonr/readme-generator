@@ -3,7 +3,7 @@
 ## Description
 ---
 ${answers.description}
-[![License: ${answers.license}]
+
 
 
 ## Table of Contents
