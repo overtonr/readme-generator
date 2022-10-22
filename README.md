@@ -27,6 +27,7 @@ Once Node.js is installed, users should navigate to the file and enter "node ind
         err ? console.log(err) : console.log ("README file created.")
         );
 ```
+![Example README](./develop/images/example-ss.png)
 This code uses the input from the inquirer responsed and then generates the README.md based on the input from the user. The README.md also contains a section for all of the sections of a professional README.md, a license badge, a table of contents that takes the user to that section of the README.md, and a contact section that includes the users github profile link and email.
 ## License
 ---
@@ -41,4 +42,5 @@ None
 ## Questions
 ----
 https://github.com/overtonr
+
 If you have any questions, please feel free to contact me through my email : overton.rm@gmail.com.
