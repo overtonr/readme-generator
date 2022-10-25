@@ -51,6 +51,7 @@ inquirer
         message:"What are the usage instructions for your application?",
     },
     {
+        //type : list gives the use a list of options to choose from 
         type:"list",
         name: "license",
         message:"Please select a license from the following options.",
@@ -69,16 +70,12 @@ inquirer
     ])
 // Function to write README file
     .then((answers) => {
+//generated file contains code from the generateMarkdown function
         const fileContent = generateMarkdown(answers);
-        fs.writeFile("README.md", fileContent, (err) =>
+    //file name is generatedREADME.md so it is not confused with the readme for this application
+        fs.writeFile("generatedREADME.md", fileContent, (err) =>
+    //if an err present, then console.log the err, if not then let the user know that the file has been generated
         err ? console.log(err) : console.log ("README file created.")
         );
     });
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
