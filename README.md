@@ -1,4 +1,4 @@
-# Challenge : README Generator
+README Generator
 
 ## Description
 
