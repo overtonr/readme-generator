@@ -1,4 +1,4 @@
-README Generator
+# README Generator
 
 ## Description
 
@@ -10,6 +10,7 @@ This application uses the Inquirer NPM in Node.js to ask the user questions and 
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technologies Used](#technologies-used)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#test-instructions)
@@ -35,6 +36,18 @@ Once Node.js is installed, users should navigate to the develop folder and enter
 This code uses the input from the inquirer responsed and then generates the README.md based on the input from the user. The README.md also contains all of the sections of a professional README.md, a license badge that links to the license information when clicked, a table of contents that takes the user to that section of the README.md, and a contact section that includes the users github profile link and email.
 
 ![Test README gif](./develop/images/readme-test.gif)
+
+<br>
+
+## Technologies Used:
+* Github
+* Node.js
+* Inquirer NPM
+* JavaScript
+* VS Code
+
+<br>
+
 ## License
 ---
 This application is covered under the MIT License
