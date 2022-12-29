@@ -49,7 +49,6 @@ This code uses the input from the inquirer responsed and then generates the READ
 <br>
 
 ## License
----
 This application is covered under the MIT License
 ## Contributing
 None
